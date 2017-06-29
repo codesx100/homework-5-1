@@ -2,7 +2,7 @@
 <main>
     <aside>
         <h1>Categories</h1>
-        <nav>
+        <?php include '../view/category_nav.php'; ?>
         <ul>
             <!-- display links for all categories -->
             <?php foreach($categories as $category) : ?>
