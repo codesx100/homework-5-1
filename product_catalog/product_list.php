@@ -1,8 +1,8 @@
-<?php include '../view/header.php'; ?>
+?php include '../view/header.php'; ?>
 <main>
     <aside>
         <h1>Categories</h1>
-        <?php include '../view/category_nav.php'; ?>
+        <nav>
         <ul>
             <!-- display links for all categories -->
             <?php foreach($categories as $category) : ?>
